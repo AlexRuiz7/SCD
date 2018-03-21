@@ -1,0 +1,8 @@
+# Ignorar documentos PDF
+*.pdf
+
+# Ignorar ficheros zip
+*.zip
+
+# Ignorar ficheros java compilados
+*.class

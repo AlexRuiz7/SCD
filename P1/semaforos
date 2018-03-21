@@ -1,0 +1,20 @@
+
+
+sem_init(*sem, 0, value) // Inicializa el semaforo a value
+sem_wait(*sem)
+sem_post(*sem)
+sem_destroy(*sem)
+
+##  WAIT  ##
+
+if(s>0)
+  s--;
+else
+  bloquear(s);
+
+##  POST  ##
+
+if(bloqueados.isEmpty())
+  s++;
+else
+  desbloquear(s);
