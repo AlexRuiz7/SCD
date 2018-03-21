@@ -1,6 +1,12 @@
 # Ignorar documentos PDF
 *.pdf
 
+# Menos los guiones de prácticas
+!/P1/*.pdf
+!/P2/*.pdf
+!/P3/*.pdf
+!/P4/*.pdf
+
 # Ignorar ficheros zip
 *.zip
 
